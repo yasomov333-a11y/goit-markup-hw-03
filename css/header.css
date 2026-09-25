@@ -5,8 +5,7 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
+  }
 
 .header-nav {
   display: flex;
@@ -65,4 +64,8 @@
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--color-ocean);
+}
+
+.contacts {
+  margin-left: auto;
 }
